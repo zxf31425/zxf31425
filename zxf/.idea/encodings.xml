@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding">
+    <file url="file://$PROJECT_DIR$" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/zxf-common" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/zxf-common/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/zxf-dao" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/zxf-dao/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/zxf-service" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/zxf-service-impl" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/zxf-service-impl/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/zxf-service/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/zxf-web" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/zxf-web/src/main/java" charset="UTF-8" />
+  </component>
+</project>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="zxf-web" />
+        <module name="zxf-service" />
+        <module name="zxf-service-impl" />
+        <module name="zxf-common" />
+        <module name="zxf-dao" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="zxf" target="1.8" />
+      <module name="zxf-common" target="1.8" />
+      <module name="zxf-dao" target="1.8" />
+      <module name="zxf-service" target="1.8" />
+      <module name="zxf-service-impl" target="1.8" />
+      <module name="zxf-web" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="zxf" options="-parameters" />
+      <module name="zxf-common" options="-parameters" />
+      <module name="zxf-dao" options="-parameters" />
+      <module name="zxf-service" options="-parameters" />
+      <module name="zxf-service-impl" options="-parameters" />
+      <module name="zxf-web" options="-parameters" />
+    </option>
+  </component>
+</project>

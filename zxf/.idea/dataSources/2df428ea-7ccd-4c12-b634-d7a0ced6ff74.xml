@@ -1,0 +1,386 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataSource name="house@localhost">
+  <database-model serializer="dbm" dbms="UNKNOWN" family-id="UNKNOWN" format-version="4.16">
+    <root id="1">
+      <ServerVersion>0.0</ServerVersion>
+      <DefaultCasing>lower/lower</DefaultCasing>
+    </root>
+    <database id="2" parent="1" name=" hotevents"/>
+    <database id="3" parent="1" name="260school"/>
+    <database id="4" parent="1" name="air_quality"/>
+    <database id="5" parent="1" name="apply"/>
+    <database id="6" parent="1" name="bank"/>
+    <database id="7" parent="1" name="blog"/>
+    <database id="8" parent="1" name="book"/>
+    <database id="9" parent="1" name="books"/>
+    <database id="10" parent="1" name="branches"/>
+    <database id="11" parent="1" name="cardb"/>
+    <database id="12" parent="1" name="contact"/>
+    <database id="13" parent="1" name="csfeixun5577"/>
+    <database id="14" parent="1" name="db207"/>
+    <database id="15" parent="1" name="dining"/>
+    <database id="16" parent="1" name="driverschool"/>
+    <database id="17" parent="1" name="easybuy"/>
+    <database id="18" parent="1" name="edoc"/>
+    <database id="19" parent="1" name="employee"/>
+    <database id="20" parent="1" name="epet"/>
+    <database id="21" parent="1" name="estate"/>
+    <database id="22" parent="1" name="faqs"/>
+    <database id="23" parent="1" name="financingproduct"/>
+    <database id="24" parent="1" name="flight"/>
+    <database id="25" parent="1" name="hot"/>
+    <database id="26" parent="1" name="house">
+      <Current>1</Current>
+    </database>
+    <database id="27" parent="1" name="housetype"/>
+    <database id="28" parent="1" name="information_schema"/>
+    <database id="29" parent="1" name="invitation"/>
+    <database id="30" parent="1" name="jpa"/>
+    <database id="31" parent="1" name="kkmusic"/>
+    <database id="32" parent="1" name="leaverecords"/>
+    <database id="33" parent="1" name="library"/>
+    <database id="34" parent="1" name="lwgl"/>
+    <database id="35" parent="1" name="lzbnet7"/>
+    <database id="36" parent="1" name="memberinfo"/>
+    <database id="37" parent="1" name="membersinfo"/>
+    <database id="38" parent="1" name="move"/>
+    <database id="39" parent="1" name="myfaqs"/>
+    <database id="40" parent="1" name="mysql"/>
+    <database id="41" parent="1" name="news"/>
+    <database id="42" parent="1" name="newsmanagersystem"/>
+    <database id="43" parent="1" name="oa"/>
+    <database id="44" parent="1" name="one"/>
+    <database id="45" parent="1" name="peitems"/>
+    <database id="46" parent="1" name="person"/>
+    <database id="47" parent="1" name="pet"/>
+    <database id="48" parent="1" name="police_db"/>
+    <database id="49" parent="1" name="product"/>
+    <database id="50" parent="1" name="sale"/>
+    <database id="51" parent="1" name="smbms"/>
+    <database id="52" parent="1" name="student"/>
+    <database id="53" parent="1" name="student2"/>
+    <database id="54" parent="1" name="subjects"/>
+    <database id="55" parent="1" name="test"/>
+    <database id="56" parent="1" name="testdb"/>
+    <database id="57" parent="1" name="testpet"/>
+    <database id="58" parent="1" name="willsun"/>
+    <database id="59" parent="1" name="wireless_db"/>
+    <database id="60" parent="1" name="wordtest"/>
+    <database id="61" parent="1" name="wordwritedatabase"/>
+    <database id="62" parent="1" name="workorder"/>
+    <database id="63" parent="1" name="zphdb"/>
+    <schema id="64" parent="26">
+      <Current>1</Current>
+    </schema>
+    <table id="65" parent="64" name="book_info"/>
+    <table id="66" parent="64" name="hos_district"/>
+    <table id="67" parent="64" name="hos_house"/>
+    <table id="68" parent="64" name="hos_street"/>
+    <table id="69" parent="64" name="hos_type"/>
+    <table id="70" parent="64" name="sys_user"/>
+    <table id="71" parent="64" name="users"/>
+    <column id="72" parent="65" name="book_id">
+      <Position>1</Position>
+      <DataType>INT(10)|4s</DataType>
+      <NotNull>1</NotNull>
+      <SequenceIdentity>1</SequenceIdentity>
+    </column>
+    <column id="73" parent="65" name="book_code">
+      <Position>2</Position>
+      <DataType>VARCHAR(20)|12s</DataType>
+      <NotNull>1</NotNull>
+      <DefaultExpression>&apos;&apos;</DefaultExpression>
+    </column>
+    <column id="74" parent="65" name="book_name">
+      <Position>3</Position>
+      <DataType>VARCHAR(50)|12s</DataType>
+      <NotNull>1</NotNull>
+      <DefaultExpression>&apos;&apos;</DefaultExpression>
+    </column>
+    <column id="75" parent="65" name="book_type">
+      <Position>4</Position>
+      <DataType>INT(10)|4s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="76" parent="65" name="book_atuthor">
+      <Position>5</Position>
+      <DataType>VARCHAR(20)|12s</DataType>
+      <NotNull>1</NotNull>
+      <DefaultExpression>&apos;&apos;</DefaultExpression>
+    </column>
+    <column id="77" parent="65" name="publish_press">
+      <Position>6</Position>
+      <DataType>VARCHAR(200)|12s</DataType>
+      <NotNull>1</NotNull>
+      <DefaultExpression>&apos;&apos;</DefaultExpression>
+    </column>
+    <column id="78" parent="65" name="publish_date">
+      <Position>7</Position>
+      <DataType>DATE(10)|91s</DataType>
+      <NotNull>1</NotNull>
+      <DefaultExpression>&apos;&apos;</DefaultExpression>
+    </column>
+    <column id="79" parent="65" name="is_borrow">
+      <Position>8</Position>
+      <DataType>INT(10)|4s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="80" parent="65" name="createdBy">
+      <Position>9</Position>
+      <DataType>VARCHAR(50)|12s</DataType>
+      <NotNull>1</NotNull>
+      <DefaultExpression>&apos;&apos;</DefaultExpression>
+    </column>
+    <column id="81" parent="65" name="creation_time">
+      <Position>10</Position>
+      <DataType>DATE(10)|91s</DataType>
+      <NotNull>1</NotNull>
+      <DefaultExpression>&apos;&apos;</DefaultExpression>
+    </column>
+    <column id="82" parent="65" name="last_updatetime">
+      <Position>11</Position>
+      <DataType>DATE(10)|91s</DataType>
+      <NotNull>1</NotNull>
+      <DefaultExpression>&apos;&apos;</DefaultExpression>
+    </column>
+    <index id="83" parent="65" name="PRIMARY">
+      <ColNames>book_id</ColNames>
+      <Unique>1</Unique>
+    </index>
+    <key id="84" parent="65" name="PRIMARY">
+      <ColNames>book_id</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <column id="85" parent="66" name="did">
+      <Position>1</Position>
+      <DataType>INT(10)|4s</DataType>
+      <NotNull>1</NotNull>
+      <SequenceIdentity>1</SequenceIdentity>
+    </column>
+    <column id="86" parent="66" name="dName">
+      <Position>2</Position>
+      <DataType>VARCHAR(20)|12s</DataType>
+      <NotNull>1</NotNull>
+      <DefaultExpression>&apos;&apos;</DefaultExpression>
+    </column>
+    <index id="87" parent="66" name="PRIMARY">
+      <ColNames>did</ColNames>
+      <Unique>1</Unique>
+    </index>
+    <key id="88" parent="66" name="PRIMARY">
+      <ColNames>did</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <column id="89" parent="67" name="hMid">
+      <Position>1</Position>
+      <DataType>INT(10)|4s</DataType>
+      <NotNull>1</NotNull>
+      <SequenceIdentity>1</SequenceIdentity>
+    </column>
+    <column id="90" parent="67" name="uid">
+      <Position>2</Position>
+      <DataType>INT(10)|4s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="91" parent="67" name="sid">
+      <Position>3</Position>
+      <DataType>INT(10)|4s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="92" parent="67" name="hTid">
+      <Position>4</Position>
+      <DataType>INT(10)|4s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="93" parent="67" name="price">
+      <Position>5</Position>
+      <DataType>DECIMAL(10)|3s</DataType>
+      <NotNull>1</NotNull>
+      <DefaultExpression>0</DefaultExpression>
+    </column>
+    <column id="94" parent="67" name="topic">
+      <Position>6</Position>
+      <DataType>VARCHAR(20)|12s</DataType>
+      <NotNull>1</NotNull>
+      <DefaultExpression>&apos;&apos;</DefaultExpression>
+    </column>
+    <column id="95" parent="67" name="contents">
+      <Position>7</Position>
+      <DataType>VARCHAR(200)|12s</DataType>
+      <NotNull>1</NotNull>
+      <DefaultExpression>&apos;&apos;</DefaultExpression>
+    </column>
+    <column id="96" parent="67" name="hTime">
+      <Position>8</Position>
+      <DataType>TIMESTAMP(19)|93s</DataType>
+      <DefaultExpression>CURRENT_TIMESTAMP</DefaultExpression>
+    </column>
+    <column id="97" parent="67" name="copy">
+      <Position>9</Position>
+      <DataType>VARCHAR(200)|12s</DataType>
+    </column>
+    <index id="98" parent="67" name="PRIMARY">
+      <ColNames>hMid</ColNames>
+      <Unique>1</Unique>
+    </index>
+    <index id="99" parent="67" name="cc">
+      <ColNames>uid</ColNames>
+    </index>
+    <index id="100" parent="67" name="dd">
+      <ColNames>sid</ColNames>
+    </index>
+    <index id="101" parent="67" name="bb">
+      <ColNames>hTid</ColNames>
+    </index>
+    <key id="102" parent="67" name="PRIMARY">
+      <ColNames>hMid</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <foreign-key id="103" parent="67" name="cc">
+      <ColNames>uid</ColNames>
+      <RefTableName>sys_user</RefTableName>
+      <RefKeyName>PRIMARY</RefKeyName>
+      <RefColNames>uid</RefColNames>
+    </foreign-key>
+    <foreign-key id="104" parent="67" name="dd">
+      <ColNames>sid</ColNames>
+      <RefTableName>hos_street</RefTableName>
+      <RefKeyName>PRIMARY</RefKeyName>
+      <RefColNames>sid</RefColNames>
+    </foreign-key>
+    <foreign-key id="105" parent="67" name="bb">
+      <ColNames>hTid</ColNames>
+      <RefTableName>hos_type</RefTableName>
+      <RefKeyName>PRIMARY</RefKeyName>
+      <RefColNames>hTid</RefColNames>
+    </foreign-key>
+    <column id="106" parent="68" name="sid">
+      <Position>1</Position>
+      <DataType>INT(10)|4s</DataType>
+      <NotNull>1</NotNull>
+      <SequenceIdentity>1</SequenceIdentity>
+    </column>
+    <column id="107" parent="68" name="sNAme">
+      <Position>2</Position>
+      <DataType>VARCHAR(50)|12s</DataType>
+      <NotNull>1</NotNull>
+      <DefaultExpression>&apos;&apos;</DefaultExpression>
+    </column>
+    <column id="108" parent="68" name="sDid">
+      <Position>3</Position>
+      <DataType>INT(10)|4s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <index id="109" parent="68" name="PRIMARY">
+      <ColNames>sid</ColNames>
+      <Unique>1</Unique>
+    </index>
+    <index id="110" parent="68" name="aa">
+      <ColNames>sDid</ColNames>
+    </index>
+    <key id="111" parent="68" name="PRIMARY">
+      <ColNames>sid</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <foreign-key id="112" parent="68" name="aa">
+      <ColNames>sDid</ColNames>
+      <RefTableName>hos_district</RefTableName>
+      <RefKeyName>PRIMARY</RefKeyName>
+      <RefColNames>did</RefColNames>
+    </foreign-key>
+    <column id="113" parent="69" name="hTid">
+      <Position>1</Position>
+      <DataType>INT(10)|4s</DataType>
+      <NotNull>1</NotNull>
+      <SequenceIdentity>1</SequenceIdentity>
+    </column>
+    <column id="114" parent="69" name="htName">
+      <Position>2</Position>
+      <DataType>VARCHAR(20)|12s</DataType>
+      <NotNull>1</NotNull>
+      <DefaultExpression>&apos;&apos;</DefaultExpression>
+    </column>
+    <index id="115" parent="69" name="PRIMARY">
+      <ColNames>hTid</ColNames>
+      <Unique>1</Unique>
+    </index>
+    <key id="116" parent="69" name="PRIMARY">
+      <ColNames>hTid</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <column id="117" parent="70" name="uid">
+      <Position>1</Position>
+      <DataType>INT(10)|4s</DataType>
+      <NotNull>1</NotNull>
+      <SequenceIdentity>1</SequenceIdentity>
+    </column>
+    <column id="118" parent="70" name="uName">
+      <Position>2</Position>
+      <DataType>VARCHAR(20)|12s</DataType>
+      <NotNull>1</NotNull>
+      <DefaultExpression>&apos;&apos;</DefaultExpression>
+    </column>
+    <column id="119" parent="70" name="uPassWord">
+      <Position>3</Position>
+      <DataType>VARCHAR(50)|12s</DataType>
+    </column>
+    <index id="120" parent="70" name="PRIMARY">
+      <ColNames>uid</ColNames>
+      <Unique>1</Unique>
+    </index>
+    <key id="121" parent="70" name="PRIMARY">
+      <ColNames>uid</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <column id="122" parent="71" name="user_id">
+      <Position>1</Position>
+      <DataType>INT(10)|4s</DataType>
+      <NotNull>1</NotNull>
+      <SequenceIdentity>1</SequenceIdentity>
+    </column>
+    <column id="123" parent="71" name="user_code">
+      <Position>2</Position>
+      <DataType>VARCHAR(50)|12s</DataType>
+      <NotNull>1</NotNull>
+      <DefaultExpression>&apos;&apos;</DefaultExpression>
+    </column>
+    <column id="124" parent="71" name="password">
+      <Position>3</Position>
+      <DataType>VARCHAR(20)|12s</DataType>
+      <NotNull>1</NotNull>
+      <DefaultExpression>&apos;&apos;</DefaultExpression>
+    </column>
+    <column id="125" parent="71" name="email">
+      <Position>4</Position>
+      <DataType>VARCHAR(50)|12s</DataType>
+      <NotNull>1</NotNull>
+      <DefaultExpression>&apos;&apos;</DefaultExpression>
+    </column>
+    <column id="126" parent="71" name="gender">
+      <Position>5</Position>
+      <DataType>VARCHAR(20)|12s</DataType>
+      <NotNull>1</NotNull>
+      <DefaultExpression>&apos;&apos;</DefaultExpression>
+    </column>
+    <column id="127" parent="71" name="register_time">
+      <Position>6</Position>
+      <DataType>DATE(10)|91s</DataType>
+      <NotNull>1</NotNull>
+      <DefaultExpression>&apos;&apos;</DefaultExpression>
+    </column>
+    <column id="128" parent="71" name="last_logintime">
+      <Position>7</Position>
+      <DataType>DATE(10)|91s</DataType>
+      <NotNull>1</NotNull>
+      <DefaultExpression>&apos;&apos;</DefaultExpression>
+    </column>
+    <index id="129" parent="71" name="PRIMARY">
+      <ColNames>user_id</ColNames>
+      <Unique>1</Unique>
+    </index>
+    <key id="130" parent="71" name="PRIMARY">
+      <ColNames>user_id</ColNames>
+      <Primary>1</Primary>
+    </key>
+  </database-model>
+</dataSource>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/zxf.iml" filepath="$PROJECT_DIR$/zxf.iml" />
+      <module fileurl="file://$PROJECT_DIR$/zxf-common/zxf-common.iml" filepath="$PROJECT_DIR$/zxf-common/zxf-common.iml" />
+      <module fileurl="file://$PROJECT_DIR$/zxf-dao/zxf-dao.iml" filepath="$PROJECT_DIR$/zxf-dao/zxf-dao.iml" />
+      <module fileurl="file://$PROJECT_DIR$/zxf-service/zxf-service.iml" filepath="$PROJECT_DIR$/zxf-service/zxf-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/zxf-service-impl/zxf-service-impl.iml" filepath="$PROJECT_DIR$/zxf-service-impl/zxf-service-impl.iml" />
+      <module fileurl="file://$PROJECT_DIR$/zxf-web/zxf-web.iml" filepath="$PROJECT_DIR$/zxf-web/zxf-web.iml" />
+    </modules>
+  </component>
+</project>
